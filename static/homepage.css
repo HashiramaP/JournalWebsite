@@ -1,0 +1,103 @@
+body{
+    background: black;
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: white;
+}
+h1{
+    font-size: 70px;
+    position: fixed;
+    left: 20%;
+}
+h2{
+    position: fixed;
+    left: 24%;
+    top: 150px;
+}
+#desc{
+    position: fixed;
+    left: 9%;
+    top: 230px;
+    width: 45%;
+    line-height: 2;
+    text-align: center;
+}
+#or{
+    font-weight: 0;
+    position: fixed;
+    right: 11.5%;
+    bottom: 45%;
+}
+.signup{
+    position: fixed;
+    right: 5%;
+    top:17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.login{
+    position: fixed;
+    right: 5%;
+    bottom: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+label[for="chk"] {
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+}
+.signup input{
+    background: white;
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 600;
+    border-radius: 8px ;
+    width:65%;
+    padding:10px;
+    margin:5px;
+}
+.login input{
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 600;
+    border-radius: 8px ;
+    width:65%;
+    padding:10px;
+    margin:5px;
+}
+.signup button{
+    position: relative;
+    bottom:-15px;
+    padding:10px;
+    width:65%;
+    border-radius: 15px ;
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.login button{
+    position: relative;
+    padding:10px;
+    bottom:-15px;
+    width:65%;
+    border-radius: 15px ;
+    font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.signup button:hover{
+    transform: scale(1.1);
+}
+.signup button:active{
+    transform: scale(0.9)
+}
+.login button:hover{
+    transform: scale(1.1);
+}
+.login button:active{
+    transform: scale(0.9)
+}

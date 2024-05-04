@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Journal.io</title>
+    <link rel="stylesheet" type="text/css" href="../static/homepage.css">
+</head>
+<body>
+<h1>Journal.io</h1>
+<h2> What is journal.io ?</h2>
+<p id="desc">
+    Journal.io is a cutting-edge Web3 platform designed to enhance productivity and goal achievement through meticulous tracking and journaling. Users can set daily work timers and track their progress, with the website monitoring performance and maintaining streaks. The longer the user maintains their streak, the more they can leverage the platform's unique feature: staking Journal Coins. By staking these coins, users can earn API returns, adding a financial incentive to their commitment and consistency. This integration of blockchain technology not only motivates users but also rewards them for their diligence and perseverance toward their goals. </p>
+
+<form>
+    <div class="signup" >
+        <form action="/signup" method="post">
+            <label for="chk" aria-hidden="true">Sign up</label>
+            <input type="text" name="Username" placeholder="Username" required="">
+            <input type="text" name="Email" placeholder="Email" required="">
+            <input type="text" name="Password" placeholder="Password" required="">
+            <button>Sign up</button>
+        </form>
+    </div>
+</form>
+<label id="or">  ━━━━ Already a user? ━━━━ </label>
+<form>
+    <div class="login" >
+        <form action="/login" method="post">
+                <label for="chk" aria-hidden="true">Log in</label>
+            <input type="text" name="Username" placeholder="Username" required="">
+            <input type="text" name="Password" placeholder="Password" required="">
+            <button onclick=" ">Login in</button>
+        </form>
+    </div>
+</form>
+
+
+</body>
+</html>

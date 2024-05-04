@@ -1,0 +1,5 @@
+use journal
+
+DROP TABLE IF EXISTS goals;
+DROP TABLE IF EXISTS journal;
+DROP TABLE IF EXISTS users;
